@@ -26,7 +26,7 @@ function mergeObjects(objects, cb) {
 }
 
 program
-  .version('0.0.1')
+  .version('1.0.1')
   .arguments('[files...]')
   // .arguments('<file> [...files]')
   // .usage('[options] <file ...>')
@@ -37,8 +37,14 @@ program
     const merged = mergeObjects(files.map(function(file) {
       return JSON.parse(fs.readFileSync(file, 'utf8'))
     }), function(a, b) {
-      console.error('not sure how to merge', a, b)
-      process.exit(1)
+      if (typeof a !== typeof b) {
+        console.error('Not sure how to merge',
+          JSON.stringify(a),
+          JSON.stringify(b))
+        process.exit(1)
+      } else {
+        return b
+      }
     })
     console.log(JSON.stringify(merged, null, 2))
   })

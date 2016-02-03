@@ -1,6 +1,6 @@
 {
   "name": "package-compose",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "command-line tool to merge package.json files",
   "author": "Torsten Curdt",
   "license": "Apache-2.0",
