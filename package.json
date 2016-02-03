@@ -1,0 +1,32 @@
+{
+  "name": "package-compose",
+  "version": "1.0.0",
+  "description": "command-line tool to merge package.json files",
+  "author": "Torsten Curdt",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/tcurdt/package-gen#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tcurdt/package-gen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tcurdt/package-gen/issues"
+  },
+  "keywords": [
+    "node",
+    "package",
+    "merge",
+    "compose",
+    "cli"
+  ],
+  "main": "index.js",
+  "bin": {
+    "package-compose": "./index.js"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {
+    "commander": "2.9.x"
+  }
+}
