@@ -4,13 +4,13 @@
   "description": "command-line tool to merge package.json files",
   "author": "Torsten Curdt",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/tcurdt/package-gen#readme",
+  "homepage": "https://github.com/tcurdt/package-compose#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tcurdt/package-gen.git"
+    "url": "git://github.com/tcurdt/package-compose.git"
   },
   "bugs": {
-    "url": "https://github.com/tcurdt/package-gen/issues"
+    "url": "https://github.com/tcurdt/package-compose/issues"
   },
   "keywords": [
     "node",
