@@ -1,16 +1,16 @@
 {
-  "name": "package-compose",
-  "version": "1.0.1",
+  "name": "@tcurdt/package-utils",
+  "version": "1.0.2",
   "description": "command-line tool to merge package.json files",
   "author": "Torsten Curdt",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/tcurdt/package-compose#readme",
+  "homepage": "https://github.com/tcurdt/package-utils#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tcurdt/package-compose.git"
+    "url": "git://github.com/tcurdt/package-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/tcurdt/package-compose/issues"
+    "url": "https://github.com/tcurdt/package-utils/issues"
   },
   "keywords": [
     "node",
@@ -21,7 +21,8 @@
   ],
   "main": "index.js",
   "bin": {
-    "package-compose": "./index.js"
+    "package-merge": "./package-merge.js",
+    "package-deps": "./package-deps.js"
   },
   "scripts": {
     "test": ""

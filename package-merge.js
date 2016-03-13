@@ -26,7 +26,7 @@ function mergeObjects(objects, cb) {
 }
 
 program
-  .version('1.0.1')
+  .version('1.0.2')
   .arguments('[files...]')
   // .arguments('<file> [...files]')
   // .usage('[options] <file ...>')
