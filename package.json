@@ -1,6 +1,6 @@
 {
   "name": "@tcurdt/package-utils",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "command-line tool to merge package.json files",
   "author": "Torsten Curdt",
   "license": "Apache-2.0",
@@ -22,7 +22,8 @@
   "main": "index.js",
   "bin": {
     "package-merge": "./package-merge.js",
-    "package-deps": "./package-deps.js"
+    "package-deps": "./package-deps.js",
+    "package-resolve": "./package-resolve.js"
   },
   "scripts": {
     "test": ""

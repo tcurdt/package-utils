@@ -11,7 +11,7 @@ function merge(name, a, b) {
 }
 
 program
-  .version('1.0.2')
+  .version('1.0.4')
   .arguments('[files...]')
   .option('-d, --dev', 'also list dev devDependencies')
   .action(function(files) {

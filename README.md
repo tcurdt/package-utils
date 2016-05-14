@@ -20,3 +20,9 @@ In the API you can provide custom handling via callback.
     moment@2.11.2
 
 With `package-deps` you get the dependencies of all the project files passed in. With the `-d` option this also includes the `devDependencies`. On the command line clashing versions will be reported and the last version wins.
+
+# package-resolve
+
+Resolves dependencies set to `RESOLVE` to what's in the dict.
+
+    cat package.json | package-resolve dict.json > out.json
