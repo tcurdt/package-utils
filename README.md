@@ -2,7 +2,7 @@ Utils to work with `package.json` files.
 
 Install globally or locally
 
-    npm install -g package-utils
+    npm install -g @tcurdt/package-utils
 
 # package-merge
 
